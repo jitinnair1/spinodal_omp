@@ -9,8 +9,8 @@ Cahn-Hilliard equation is solved using OpenMP parallelisation.
 Use the following commands in your terminal:
 
 ```bash
-git clone git@github.com:jitinnair1/hello-again-phasefield.git
-cd hello-again-phasefield && mkdir build && cd build
+git clone git@github.com:jitinnair1/spinodal_omp.git
+cd spinodal_omp && mkdir build && cd build
 cmake ..
 make
 ```
