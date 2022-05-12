@@ -1,5 +1,6 @@
 *.DS_store
+*.vtk
 /bin/
 /output/
 /cmake-build-debug/
-*.vtk
+/.idea/
