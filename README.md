@@ -4,6 +4,12 @@ This repo has a simple implementation of the Cahn-Hilliard equation in C paralle
 code here so that somebody starting out could use this as a template to build upon or to understand how the 
 Cahn-Hilliard equation is solved using OpenMP parallelisation.
 
+# Prerequisites
+
+You would need the following available on your system to build and run this program:
+- OpenMP
+- FFTW compiled with `--enable-openmp` flag
+
 # Build
 
 Use the following commands in your terminal:
