@@ -28,7 +28,6 @@ add_executable(${PROJECT_NAME}
         src/spinodal_omp.c
         src/spinodal_omp.h
         src/write_to_VTK.c
-        src/write_init_conc.c
         src/prep_fft.c
         src/write_input_to_file.c)
 
