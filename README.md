@@ -34,6 +34,6 @@ executable as
 This will generate a folder called `Test` within an output folder with .vtk files which can be opened 
 using ParaView
 
-# a word of caution
+# Issues
 
-This code is not optimised for performance. Please create an issue if you encountered errors or unexpected behavior.
+Please start a new discussion or issue if you encounter problems
