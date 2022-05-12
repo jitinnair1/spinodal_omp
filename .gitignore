@@ -1,0 +1,5 @@
+*.DS_store
+/bin/
+/output/
+/cmake-build-debug/
+*.vtk
