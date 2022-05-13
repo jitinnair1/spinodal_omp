@@ -16,6 +16,9 @@ set(CMAKE_C_FLAGS_DEBUG "-Wall -g -fopenmp -O2")
 include_directories(/usr/local/Cellar/gcc)
 include_directories(/usr/local/include)
 
+find_package(OpenMP)
+
+
 # Link Libraries
 link_directories(/usr/local/lib/)
 
@@ -32,8 +35,7 @@ add_executable(${PROJECT_NAME}
         src/write_input_to_file.c)
 
 # Link Library to Target
-target_link_libraries(${PROJECT_NAME} fftw3_omp fftw3 m gsl gslcblas)
-
+target_link_libraries(${PROJECT_NAME} fftw3_omp fftw3 m gsl gslcblas OpenMP::OpenMP_C)
 
 
 
